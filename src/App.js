@@ -22,7 +22,7 @@ const App = () => {
       <div className='app-wrapper'>
         <div>
           <Header />
-
+          
         </div>
         <div>
 
@@ -30,7 +30,7 @@ const App = () => {
         </div>
         <div>
           <Todolist todos={todos} setTodos={setTodos} setEditTodo={setEditTodo} />
-
+        
         </div>
       </div>
     </div>
